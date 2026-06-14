@@ -10,7 +10,7 @@ const myProjects = [
         title: "Cat Photo App",
         description: "An interactive application practicing structure, image nesting, and form inputs.",
         tag: "HTML Basics",
-        url: "#" 
+        url: "https://allebachew.github.io/alecode/cat.html"
     },
     {
         title: "Survey Form",
