@@ -87,3 +87,75 @@ body {
     font-size: 0.85rem;
     font-weight: 500;
 }
+
+/* --- Survey Form Specific Styles --- */
+/* --- Updated Responsive Container --- */
+.container {
+    width: 90%;            /* Forces the container to take up 90% of the screen width */
+    max-width: 600px;      /* Prevents it from getting too wide on laptops */
+    margin: 20px auto;     /* Lowers the top margin so it fits better vertically */
+    padding: 15px;         /* Slightly smaller padding so text doesn't hit the edges */
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-sizing: border-box; /* Ensures padding doesn't push the box off-screen */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+/* --- Updated Responsive Container --- */
+.container {
+    width: 90%;            /* Forces the container to take up 90% of the screen width */
+    max-width: 600px;      /* Prevents it from getting too wide on laptops */
+    margin: 20px auto;     /* Lowers the top margin so it fits better vertically */
+    padding: 15px;         /* Slightly smaller padding so text doesn't hit the edges */
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-sizing: border-box; /* Ensures padding doesn't push the box off-screen */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.form-group {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Styling for Text, Email, and Dropdown fields */
+input[type="text"],
+input[type="email"],
+select {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px; /* Prevents mobile browsers from auto-zooming */
+    background-color: #fff;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Styling for Checkboxes layout */
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.checkbox-group input[type="checkbox"] {
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.checkbox-group label {
+    margin-bottom: 0;
+    font-weight: normal;
+    cursor: pointer;
+}
+
