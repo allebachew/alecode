@@ -4,7 +4,7 @@ const myProjects = [
         title: "Travel Agency Page",
         description: "A gorgeous responsive landing page built with HTML layouts and fluid CSS styling.",
         tag: "HTML & CSS",
-        url: "index.html" 
+        url: "agency.html" 
     },
     {
         title: "Cat Photo App",
@@ -37,3 +37,4 @@ myProjects.forEach(project => {
     `;
     gridContainer.innerHTML += cardHTML;
 });
+
