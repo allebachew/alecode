@@ -159,3 +159,84 @@ select {
     cursor: pointer;
 }
 
+/* --- Travel Agency Specific Styles --- */
+.agency-header {
+    background-color: #1a252f;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 5%;
+}
+
+.agency-header .logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: #3498db;
+}
+
+.agency-nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 14px;
+}
+
+/* Hero Screen Layout */
+.hero-section {
+    background-color: #f8f9fa;
+    padding: 60px 5%;
+    text-align: center;
+    border-bottom: 2px solid #eaeded;
+}
+
+.hero-content h1 {
+    font-size: 28px;
+    color: #2c3e50;
+    margin-bottom: 15px;
+    line-height: 1.2;
+}
+
+.hero-content p {
+    font-size: 16px;
+    color: #7f8c8d;
+    margin-bottom: 25px;
+}
+
+/* Services Layout */
+.services-section {
+    padding: 40px 5%;
+    background-color: #ffffff;
+}
+
+.services-section h2 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 30px;
+}
+
+.services-grid {
+    display: flex;
+    flex-direction: column; /* Stacks cards cleanly on phone screens */
+    gap: 20px;
+}
+
+.service-card {
+    background-color: #fdfefe;
+    padding: 20px;
+    border-radius: 6px;
+    border-left: 4px solid #3498db; /* Adds a clean blue accent line */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.service-card h3 {
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+.service-card p {
+    color: #7f8c8d;
+    line-height: 1.5;
+}
+
+
