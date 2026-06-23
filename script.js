@@ -38,3 +38,31 @@ myProjects.forEach(project => {
     gridContainer.innerHTML += cardHTML;
 });
 
+// 1. Create a function to check the time and display a greeting
+function displayDynamicGreeting() {
+    // Get the HTML container we just created
+    const greetingElement = document.getElementById("welcome-greeting");
+    
+    // Get the current hour on the user's device (0 to 23)
+    const currentHour = new Date().getHours();
+    
+    // Create a variable to hold our message text
+    let message = "";
+
+    // 2. Use If/Else logic to determine the greeting
+    if (currentHour < 12) {
+        message = "☀️ Good Morning! Welcome to my portfolio.";
+    } else if (currentHour < 18) {
+        message = "🌤️ Good Afternoon! Thanks for stopping by.";
+    } else {
+        message = "🌙 Good Evening! Take a look at my latest work.";
+    }
+
+    // 3. Inject the message text directly into the HTML tag
+    greetingElement.innerText = message;
+}
+
+// 4. Run the function immediately when the page loads
+displayDynamicGreeting();
+
+
